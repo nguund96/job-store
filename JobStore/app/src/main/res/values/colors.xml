@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="dark">#f7f6f6</color>
+    <color name="dark1">#dedede</color>
+    <color name="appcolor">#2582c5</color>
+    <color name="red">#ff0004</color>
+    <color name="blue_custom">#169bd0ff</color>
+    <color name="blue">#01ac29</color>
+    <color name="bluedark">#2f333f</color>
+    <color name="yellow">#ffea00</color>
+    <color name="orange">#eaad43</color>
+    <color name="bluelight">#49acd5</color>
+    <color name="overlayBackground">#7f333639</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+</resources>

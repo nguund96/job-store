@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spkt.nguyenducnguu.jobstore">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Recruiter.activities.NTDRegisterActivity" />
+        <activity android:name=".Candidate.activities.UVRegisterActivity" />
+        <activity android:name=".Recruiter.activities.NTDMainActivity" />
+        <activity android:name=".Admin.activities.AdminMainActivity" />
+        <activity android:name=".ResultRegisterActivity" />
+        <activity android:name=".Recruiter.activities.NTDFilterSearchActivity" />
+        <activity android:name=".Recruiter.activities.NTDChangeProfileActivity" />
+        <activity android:name=".Select.activities.SelectWorkTypeActivity" />
+        <activity android:name=".Select.activities.SelectCarrerActivity" />
+        <activity android:name=".Select.activities.SelectLevelActivity" />
+        <activity android:name=".Select.activities.SelectExperienceActivity" />
+        <activity android:name=".Select.activities.SelectSalaryActivity" />
+        <activity android:name=".Select.activities.SelectWorkPlaceActivity" />
+        <activity android:name=".Recruiter.activities.NTDProfileActivity" />
+        <activity android:name=".Recruiter.activities.NTDViewWorkInfoActivity" />
+        <activity android:name=".Recruiter.activities.NTDEditWorkInfoActivity" />
+        <activity android:name=".Recruiter.activities.NTDViewListApplyActivity" />
+        <activity android:name=".Candidate.activities.UVMainActivity" />
+        <activity android:name=".Candidate.activities.UVWorkExpActivity" />
+        <activity android:name=".Candidate.activities.UVDiplomaActivity" />
+        <activity android:name=".Candidate.activities.UVProfileActivity" />
+        <activity android:name=".Candidate.activities.UVChangeProfileActivity" />
+        <activity android:name=".Test" />
+        <activity android:name=".Candidate.activities.UVFilterSearchActivity" />
+        <activity android:name=".Candidate.activities.UVSeeDetailActivity" />
+        <activity android:name=".Candidate.activities.UVViewWorkInfoActivity" />
+        <activity android:name=".Candidate.activities.UVViewNotificationActivity" />
+        <activity android:name=".Recruiter.activities.NTDViewNotificationActivity" />
+
+        <service
+            android:name=".Service.ListenNewWorkInfoService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".Service.ListenNewApplyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Admin.activities.AdminProfileActivity" />
+        <activity android:name=".Admin.activities.AdminFilterAccountActivity" />
+        <activity android:name=".Admin.activities.AdminViewRecruiterAccountActivity" />
+        <activity android:name=".Admin.activities.AdminViewCandidateAccountActivity" />
+        <activity android:name=".Admin.activities.AdminWarningActivity" />
+        <activity android:name=".Admin.activities.AdminViewWorkInfoActivity" />
+        <activity android:name=".Admin.activities.AdminFilterWorkInfoActivity" />
+        <activity android:name=".Admin.activities.AdminChangeProfileActivity" />
+        <activity android:name=".ResetPasswordActivity"></activity>
+    </application>
+
+</manifest>

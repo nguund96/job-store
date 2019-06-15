@@ -1,0 +1,115 @@
+<resources>
+
+    <string name="app_name">Job Store</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+    //icon_fontawesome
+    <string name="fa_list">&#xf03a;</string>
+
+    <string name="fa_search">&#xf002;</string>
+
+    <string name="fa_users">&#xf0c0;</string>
+
+    <string name="fa_user_circle">&#xf2bd;</string>
+
+    <string name="fa_arrow_left">&#xf104;</string>
+
+    <string name="fa_filter">&#xf0b0;</string>
+
+    <string name="fa_group">&#xf0c0;</string>
+
+    <string name="fa_briefcase">&#xf0b1;</string>
+
+    <string name="fa_university">&#xf19c;</string>
+
+    <string name="fa_badge">&#xf2c1;</string>
+
+    <string name="fa_star">&#xf005;</string>
+
+    <string name="fa_plus">&#xf067;</string>
+
+    <string name="fa_gender">&#xf224;</string>
+
+    <string name="fa_phone">&#xf098;</string>
+
+    <string name="fa_info">&#xf05a;</string>
+
+    <string name="fa_camera">&#xf030;</string>
+
+    <string name="fa_pen">&#xf044;</string>
+
+    <string name="fa_user">&#xf007;</string>
+
+    <string name="fa_link">&#xf127;</string>
+
+    <string name="fa_pencil">&#xf044;</string>
+
+    <string name="fa_address">&#xf2bc;</string>
+
+    <string name="fa_company">&#xf19c;</string>
+
+    <string name="fa_bell">&#xf0a2;</string>
+
+    <string name="fa_check">&#xf00c;</string>
+
+    <string name="fa_eye">&#xf06e;</string>
+
+    <string name="fa_userapply">&#xf2c0;</string>
+
+    <string name="fa_clock">&#xf017;</string>
+
+    <string name="fa_heart_selected">&#xf004;</string>
+    <string name="fa_heart_non_selected">&#xf08a;</string>
+    <string name="fa_facebook">&#xf082;</string>
+    <string name="fa_envelope">&#xf0e0;</string>
+    <string name="fa_birthday">&#xf1fd;</string>
+    <string name="icon_bookmark">&#xf097;</string>
+    <string name="fa_globe">&#xf0ac;</string>
+    <string name="fa_leaf">&#xf06c;</string>
+    <string name="fa_mortar_board">&#xf19d;</string>
+    <string name="fa_dollar">&#xf155;</string>
+    <string name="fa_suitcase">&#xf0f2;</string>
+    <string name="fa_license">&#xf2c2;</string>
+
+    <string-array name="work_types">
+        <item>Thực tập</item>
+        <item>Nhân viên</item>
+    </string-array>
+
+    <string-array name="levels">
+        <item>Đại học</item>
+        <item>Cao đẳng</item>
+    </string-array>
+
+    <string-array name="country_arrays">
+        <item>TP HCM</item>
+        <item>Hà Nội</item>
+    </string-array>
+
+    <string-array name="careers">
+        <item>CNTT</item>
+        <item>Kế toán</item>
+    </string-array>
+
+    <string-array name="workexps">
+        <item>Ngành nghề</item>
+        <item>Loại hình</item>
+        <item>Kinh nghiệm</item>
+        <item>Trình độ</item>
+        <item>Nơi làm việc</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
